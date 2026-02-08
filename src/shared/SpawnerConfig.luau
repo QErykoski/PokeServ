@@ -6,7 +6,7 @@ SpawnerConfig.Zones = {
 		MaxPets = 3,
 		SpawnInterval = 4,
 		SpawnRadius = 30,
-		ActivationRange = 20, -- Nowy parametr: dystans aktywacji strefy
+		ActivationRange = 50, -- Nowy parametr: dystans aktywacji strefy
 		SpawnList = {
 			{ Id = "FireLizard", Weight = 100, PotentialRange = {0.1, 0.5}, AllowedQualities = {"Normal"} },
 		}
@@ -17,7 +17,7 @@ SpawnerConfig.Zones = {
 		MaxPets = 3,
 		SpawnInterval = 10,
 		SpawnRadius = 20,
-		ActivationRange = 20, -- Indywidualny dystans dla strefy
+		ActivationRange = 50, -- Indywidualny dystans dla strefy
 		SpawnList = {
 			{ Id = "FireLizard", Weight = 100, PotentialRange = {0.1, 0.5}, AllowedQualities = {"Normal"} },
 		}

@@ -1,5 +1,6 @@
 local PetConfig = {}
 
+
 -- Definicje jakości i ich mnożników
 PetConfig.Qualities = {
 	Normal = 1.0,
